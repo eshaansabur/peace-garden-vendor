@@ -1,0 +1,51 @@
+[
+    {
+      "id": "63bfe62268d166f6da2505ff",
+      "name": "Jan",
+      "revenue": 200000,
+      "expense": 170000,
+      "profit": 30000
+    },
+    {
+      "id": "63bfe622cd8d1b5ae2ca7baa",
+      "name": "Feb",
+      "revenue": 300000,
+      "expense": 170000,
+      "profit": 130000
+    },
+    {
+      "id": "63bfe62229da36d7de6da4c6",
+      "name": "Mar",
+      "revenue": 230000,
+      "expense": 180000,
+      "profit": 50000
+    },
+    {
+      "id": "63bfe6221189b410808f0b38",
+      "name": "Apr",
+      "revenue": 200000,
+      "expense": 190000,
+      "profit": 10000
+    },
+    {
+      "id": "63bfe6226b7ae54a2518c5cf",
+      "name": "May",
+      "revenue": 600000,
+      "expense": 370000,
+      "profit": 230000
+    },
+    {
+      "id": "63bfe6222960a161f09f1b18",
+      "name": "Jun",
+      "revenue": 800000,
+      "expense": 550000,
+      "profit": 250000
+    },
+    {
+      "id": "63bfe62264b1e8422eb959d0",
+      "name": "Jul",
+      "revenue": 1600000,
+      "expense": 1200000,
+      "profit": 400000
+    }
+  ]
