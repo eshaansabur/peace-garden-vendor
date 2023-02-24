@@ -18,6 +18,7 @@
       "Grocery",
       "Books"
     ],
+    "size": "None",
     "date": "None"
   },
   {
@@ -39,6 +40,7 @@
       "Grocery",
       "Books"
     ],
+    "size": "XS",
     "date": "None"
   },
   {
@@ -60,6 +62,7 @@
       "Grocery",
       "Books"
     ],
+    "size": "XXL",
     "date": "None"
   },
   {
@@ -81,6 +84,7 @@
       "Grocery",
       "Books"
     ],
+    "size": "XL",
     "date": "None"
   },
   {
@@ -102,6 +106,7 @@
       "Grocery",
       "Books"
     ],
+    "size": "L",
     "date": "None"
   },
   {
@@ -123,6 +128,7 @@
       "Grocery",
       "Books"
     ],
+    "size": "S",
     "date": "None"
   },
   {
@@ -144,6 +150,7 @@
       "Grocery",
       "Books"
     ],
+    "size": "None",
     "date": "None"
   }
 ]

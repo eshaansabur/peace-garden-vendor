@@ -7,6 +7,9 @@ import user1 from '../../images/person 1.png';
 const Topbar = () => {
     const [newNotifications, setNewNotifications] = useState(5);
     const [settingsTask, setSettingsTask] = useState(0);
+    const notifSetter =(zero) => {
+        setNewNotifications(zero);
+    }
     return (
         <div className='topbar'>
             <div className="topbarwrapper">

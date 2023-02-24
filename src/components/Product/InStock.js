@@ -2,15 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useProducts from '../../hooks/useProducts';
 
-const Product = (props) => {
+const InStock = (props) => {
     const {_id, img, name, price, discounted, quantity, minAmount, variant, shipping, category, date} = props.product;
     const navigate = useNavigate();
     const {handleDeleteProduct} = props;
     const seeProductDetails = (id) =>{
-        navigate(`/product/${id}`)
+        navigate(`/stockproduct/${id}`)
     }
     const [products, setProducts] = useProducts();
-    
     return (
         <tr>
             <th scope="row"><img className='' src={img} alt="" /></th>
@@ -29,4 +28,4 @@ const Product = (props) => {
     );
 };
 
-export default Product;
+export default InStock;

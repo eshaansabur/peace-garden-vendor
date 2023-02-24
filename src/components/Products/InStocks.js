@@ -1,8 +1,9 @@
+import { Image } from '@mui/icons-material';
 import React from 'react';
 import useProducts from '../../hooks/useProducts';
-import ImageIcon from '@mui/icons-material/Image';
-import Product from '../Product/Product';
-const Products = () => {
+import InStock from '../Product/InStock';
+
+const InStocks = () => {
     const [products, setProducts] = useProducts();
     const handleDeleteProduct = (product) => {
       const remaining = products.filter(pd => pd._id !== product._id)
@@ -17,7 +18,7 @@ const Products = () => {
             <table class="table">
   <thead>
     <tr>
-      <th scope="col-1"><ImageIcon></ImageIcon></th>
+      <th scope="col-1"><Image></Image></th>
       <th scope="col-1">Name</th>
       <th scope="col-1">Price</th>
       <th scope="col-1">Discounted Price</th>
@@ -33,7 +34,7 @@ const Products = () => {
   </thead>
   <tbody>
     {
-        products.map(product => <Product key={product._id} product={product} handleDeleteProduct={handleDeleteProduct}></Product>)
+        products.map(product => <InStock key={product._id} product={product} handleDeleteProduct={handleDeleteProduct}></InStock>)
     }
   </tbody>
 </table>
@@ -41,4 +42,4 @@ const Products = () => {
     );
 };
 
-export default Products;
+export default InStocks;

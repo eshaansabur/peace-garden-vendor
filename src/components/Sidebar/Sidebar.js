@@ -7,6 +7,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import './Sidebar.css';
 import ProductionQuantityLimits from '@mui/icons-material/ProductionQuantityLimits';
+import { Link } from 'react-router-dom';
 const Sidebar = () => {
     return (
             <div className="col-3 col-md-3 col-lg-3 sidebar">
@@ -14,13 +15,26 @@ const Sidebar = () => {
                     <div className="sidebarlist">
                     <ul className='itemslisting'>
                     <li className='item'>
-                        <BarChartIcon></BarChartIcon> Dashboard
+                        <Link to='/dashboard'><BarChartIcon></BarChartIcon> Dashboard</Link>
                     </li>
                     <li className='item'>
-                        <BarChartIcon></BarChartIcon> Charts
+                    <Link to='/charts'><BarChartIcon></BarChartIcon> Charts</Link>
                     </li>
                     <li className='item'>
-                        <WidgetsIcon></WidgetsIcon> Widgets
+                    <a class="products text-white" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"><WidgetsIcon></WidgetsIcon> Widgets</a>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body dark">
+                                <ul>
+                                   <Link to='/shippingfees'><li>Add/ Change Shipping Fees</li></Link>
+                                    <Link to='/coupons'><li>Coupons</li></Link>
+                                    <Link to='/paymentintegration'><li>Payment Integration</li></Link>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                     </li>
                     <li className='item'>
                     <a class="products text-white" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><ProductionQuantityLimits></ProductionQuantityLimits> Products</a>
@@ -29,12 +43,10 @@ const Sidebar = () => {
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body dark">
                                 <ul>
-                                    <li>All Products</li>
+                                <Link to='/products'><li>All Products</li></Link>
                                     <li>Upload a Product</li>
-                                    <li>Out Of Stock</li>
-                                    <li>In Stock</li>
-                                    <li>Upcoming</li>
-                                    <li>Pre-order Products</li>
+                                    <Link to='/outofstocks'><li>Out Of Stock</li></Link>
+                                    <Link to='/instocks'><li>In Stock</li></Link>
                                 </ul>
                             </div>
                             </div>
@@ -48,11 +60,11 @@ const Sidebar = () => {
                             <div class="collapse multi-collapse" id="multiCollapseExample2">
                             <div class="card card-body dark">
                                 <ul>
-                                    <li>All Orders</li>
-                                    <li>NewOrders</li>
-                                    <li>Return Orders</li>
-                                    <li>Cancel Orders</li>
-                                    <li>Completed Orders</li>
+                                   <Link to='/orders'><li>All Orders</li></Link>
+                                    <Link to='/neworders'><li>New Orders</li></Link>
+                                    <Link to='/returnorders'><li>Return Orders</li></Link>
+                                    <Link to='/cancelorders'><li>Cancel Orders</li></Link>
+                                    <Link to='/completedorders'><li>Completed Orders</li></Link>
                                 </ul>
                             </div>
                             </div>

@@ -1,6 +1,6 @@
 .sidebar{
     background-color: black;
-    height: calc(100vh - 50px);
+    height: calc(110vh - 50px);
     position: sticky;
     top: 50px;
     margin-left: 0px;
@@ -23,4 +23,8 @@
 }
 .dark{
     background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
