@@ -11,30 +11,36 @@ const Topbar = () => {
         setNewNotifications(zero);
     }
     return (
-        <div className='topbar'>
+        <div className='container-fluid topbar py-4 text-light'>
             <div className="topbarwrapper">
                 <div className="topleft">
-                    <span className="logo">Peace Garden Vendor Admin</span>
+                <span className="logo text-light">Peace Garden Admin Panel</span>
                 </div>
                 <div className="topright">
-                    <div className="topbariconcontainer">
+                    <div className="topbariconcontainer mt-2">
                     <form class="d-flex">
                     <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search"/>
                     </form>
                     </div>
                     <div className="topbariconcontainer">
-                    <NotificationsIcon></NotificationsIcon>
+                    <NotificationsIcon className='text-light'></NotificationsIcon>
                     {
                         newNotifications> 0 ? <span className='topIconBadge'>{newNotifications}</span> : ''
                     }
                     </div>
-                    <div className="topbariconcontainer">
-                    <SettingsIcon></SettingsIcon>
-                    {
-                        settingsTask > 0 ? <span className='topIconBadge'>{settingsTask}</span> : ''
-                    }
-                    </div>
+                    
+                    <div className='topbariconcontainer nav-item dropdown text-light'>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <img className='topavatar' src={user1} alt="" />
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Profile Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Messages/ Notice</a></li>
+                        <li><a class="dropdown-item" href="#">Notifications</a></li>
+                        <li><hr class="dropdown-divider"/></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                    </div>
                 </div>
             </div>
         </div>

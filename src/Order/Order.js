@@ -11,7 +11,7 @@ const Order = (props) => {
     
     return (
         <tr>
-            <th scope="row"><img className='' src={img} alt="" /></th>
+            <th scope="row"><img className='img-size' src={img} alt="" /></th>
             <td>{name}</td>
             <td>{price}</td>
             <td>{discounted}</td>
@@ -21,7 +21,7 @@ const Order = (props) => {
             <td>{shipping}</td>
             <td>{category[4]}</td>
             <td>{date}</td>
-            <td><button onClick={()=>seeOrderDetails(_id,name, size, img, price, discounted, quantity)} className='btn btn-primary text-white'>See Details</button></td>
+            <td><button onClick={()=>seeOrderDetails(_id,name, size, img, price, discounted, quantity)} className='btn report-button'>Details</button></td>
             <td><button onClick={()=>handleDeleteOrder(props.order)} className='btn btn-danger'>Delete</button></td>
         </tr>
     );

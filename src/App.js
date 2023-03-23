@@ -25,6 +25,7 @@ import InStockDetails from './components/ProductDetails/InStockDetails';
 import ShippingFees from './Widgets/ShippingFees';
 import Coupons from './Widgets/Coupons';
 import PaymentIntegration from './Widgets/PaymentIntegration';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
               <Route path='/shippingfees' element={<ShippingFees></ShippingFees>}></Route>
               <Route path='/coupons' element={<Coupons></Coupons>}></Route>
               <Route path='/paymentintegration' element={<PaymentIntegration></PaymentIntegration>}></Route>
+              <Route path='/signup' element={<SignUp></SignUp>}></Route>
             </Routes>
             </div>
       </div>

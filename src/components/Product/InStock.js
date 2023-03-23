@@ -12,7 +12,7 @@ const InStock = (props) => {
     const [products, setProducts] = useProducts();
     return (
         <tr>
-            <th scope="row"><img className='' src={img} alt="" /></th>
+            <th scope="row"><img className='img-size' src={img} alt="" /></th>
             <td>{name}</td>
             <td>{price}</td>
             <td>{discounted}</td>
@@ -22,7 +22,7 @@ const InStock = (props) => {
             <td>{shipping}</td>
             <td>{category[5]}</td>
             <td>{date}</td>
-            <td><button onClick={()=>seeProductDetails(_id)} className='btn btn-primary text-white'>Update Details</button></td>
+            <td><button onClick={()=>seeProductDetails(_id)} className='btn report-button text-white'>Update</button></td>
             <td><button onClick={() =>handleDeleteProduct(props.product)} className='btn btn-danger'>Delete</button></td>
         </tr>
     );

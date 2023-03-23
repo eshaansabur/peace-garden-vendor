@@ -13,8 +13,8 @@ const Products = () => {
       }
   }
     return (
-        <div className='col-9 col-md-9 col-lg-9'>
-            <table class="table">
+        <div className='col-9 col-md-9 col-lg-9 mt-5 text-start ms-4'>
+            <table class="table table-secondary table-striped table-hover table-bordered border-light">
   <thead>
     <tr>
       <th scope="col-1"><ImageIcon></ImageIcon></th>

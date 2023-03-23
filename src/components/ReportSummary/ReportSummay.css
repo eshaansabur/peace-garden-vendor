@@ -1,0 +1,15 @@
+.report-header{
+    background-color: rgb(255,116,0, 0.5);
+    border: none;
+    color: white;
+}
+.report-button{
+    color: white;
+    background-color: rgb(255,116,0, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.report-button:hover{
+    color: white;
+    background-color: rgb(255,116,0, 0.75);
+}

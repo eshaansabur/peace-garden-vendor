@@ -1,0 +1,44 @@
+[
+    {
+      "id": "63bfe62268d166f6da2505ff",
+      "name": "Summer 2020",
+      "code": "LOTAPATA420",
+      "discount": 0.2
+    },
+    {
+      "id": "63bfe622cd8d1b5ae2ca7baa",
+      "name": "Summer 2021",
+      "code": "LOTAPATA60",
+      "discount": 0.2
+    },
+    {
+      "id": "63bfe62229da36d7de6da4c6",
+      "name": "Summer 2022",
+      "code": "LOTAPATA00",
+      "discount": 0.2
+    },
+    {
+      "id": "63bfe6221189b410808f0b38",
+      "name": "November 2023",
+      "code": "LOTAPATA10",
+      "discount": 0.29
+    },
+    {
+      "id": "63bfe6226b7ae54a2518c5cf",
+      "name": "Autumn 2023",
+      "code": "LOTAPATA20",
+      "discount": 0.15
+    },
+    {
+      "id": "63bfe6222960a161f09f1b18",
+      "name": "Spring 2023",
+      "code": "LOTAPATA90",
+      "discount": 0.30
+    },
+    {
+      "id": "63bfe62264b1e8422eb959d0",
+      "name": "Fall 2023",
+      "code": "LOTAPATA70",
+      "discount": 0.25
+    }
+  ]

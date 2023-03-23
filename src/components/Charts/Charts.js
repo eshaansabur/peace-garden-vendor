@@ -20,7 +20,7 @@ const Charts = () => {
             <div className="row">
                 <div className="col-md-6 col-lg-6 col-12">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header report-header">
                         BarChart
                     </div>
                     <div className="card-body">
@@ -38,7 +38,7 @@ const Charts = () => {
                 </div>
                 <div className="col-md-6 col-lg-6 col-12">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header report-header">
                         BarChart
                     </div>
                     <div className="card-body">
@@ -58,7 +58,7 @@ const Charts = () => {
             <div className="row mt-4 mb-4">
             <div className="col-md-6 col-lg-6 col-12">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header report-header">
                         LineChart
                     </div>
                     <div className="card-body">
@@ -77,7 +77,7 @@ const Charts = () => {
             </div>
             <div className="col-md-6 col-lg-6 col-12">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header report-header">
                         LineChart
                     </div>
                     <div className="card-body">
@@ -95,7 +95,7 @@ const Charts = () => {
             </div>
             <div className="col-md-6 col-lg-6 col-12">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header report-header">
                         LineChart
                     </div>
                     <div className="card-body">

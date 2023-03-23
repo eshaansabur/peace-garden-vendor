@@ -10,7 +10,7 @@ const ChartSummary = () => {
             <h3>Chart Summary</h3>
             <div className="col-md-6 col-lg-6 col-12">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header report-header">
                         Line Chart
                     </div>
                     <div className="card-body">
@@ -29,7 +29,7 @@ const ChartSummary = () => {
             </div>
             <div className="col-6 col-md-6 col-lg-6">
             <div className="card">
-                    <div className="card-header">
+                    <div className="card-header report-header">
                         Line Bar Area Composed Chart
                     </div>
                     <div className="card-body">
