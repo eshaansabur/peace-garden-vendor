@@ -6,8 +6,10 @@ import ListAltIcon from '@mui/icons-material/ListAlt';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import './Sidebar.css';
+import DashboardIcon from '@mui/icons-material/Dashboard';
 import ProductionQuantityLimits from '@mui/icons-material/ProductionQuantityLimits';
 import { Link } from 'react-router-dom';
+import Dashboard from '@mui/icons-material/Dashboard';
 const Sidebar = () => {
     return (
             <div className="col-2 col-md-2 col-lg-2 sidebar">
@@ -15,7 +17,7 @@ const Sidebar = () => {
                     <div className="sidebarlist">
                     <ul className='itemslisting'>
                     <li className='item'>
-                        <Link to='/dashboard'><BarChartIcon></BarChartIcon> Dashboard</Link>
+                        <Link to='/dashboard'><DashboardIcon></DashboardIcon> Dashboard</Link>
                     </li>
                     <li className='item'>
                     <Link to='/charts'><BarChartIcon></BarChartIcon> Charts</Link>
